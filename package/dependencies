@@ -3,7 +3,7 @@
 
 #    = Kernel =
 
-linux-headers-5.10.10-051010
-linux-headers-5.10.10-051010-generic
-linux-image-unsigned-5.10.10-051010-generic
-linux-modules-5.10.10-051010-generic
+linux-headers-5.10.0-11.3-liquorix-amd64
+linux-headers-liquorix-amd64
+linux-image-5.10.0-11.3-liquorix-amd64
+linux-image-liquorix-amd64
