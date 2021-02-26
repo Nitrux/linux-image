@@ -6,7 +6,7 @@ script:
 branches:
   only:
     - main
-    - current
+    - lts-5.4
 
 deploy:
   - provider: script
