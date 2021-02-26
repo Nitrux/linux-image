@@ -10,11 +10,11 @@ git_commit=$(git rev-parse --short HEAD)
 	"Section: misc" \
 	"Priority: optional" \
 	"Homepage: https://nxos.org" \
-	"Package: linux-image-mainline-lts" \
-	"Version: 0.1.3-$git_commit" \
+	"Package: linux-image-mainline-lts-5.4" \
+	"Version: 0.0.1-$git_commit" \
 	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
 	"Depends: $deps" \
-	"Conflicts: linux-image-mainline-current" \
+	"Conflicts: " \
 	"Architecture: amd64" \
 	"Description: Meta package to install mainline Linux kernel (LTS)."
 
