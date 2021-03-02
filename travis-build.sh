@@ -10,12 +10,11 @@ git_commit=$(git rev-parse --short HEAD)
 	"Section: misc" \
 	"Priority: optional" \
 	"Homepage: https://nxos.org" \
-	"Package: linux-image-mainline-lts" \
-	"Version: 0.1.3-$git_commit" \
+	"Package: linux-image-libre-lts" \
+	"Version: 0.0.1-$git_commit" \
 	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
 	"Depends: $deps" \
-	"Conflicts: linux-image-mainline-current" \
 	"Architecture: amd64" \
-	"Description: Meta package to install mainline Linux kernel (LTS)."
+	"Description: Meta package to install Linux Libre kernel (LTS)."
 
 equivs-build configuration
