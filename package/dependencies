@@ -3,5 +3,5 @@
 
 #    = Kernel =
 
-linux-image-5.10.19-gnu
-linux-headers-5.10.19-gnu
+linux-image-5.10.25-gnu
+linux-headers-5.10.25-gnu
