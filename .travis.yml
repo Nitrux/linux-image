@@ -8,13 +8,14 @@ branches:
     - main
     - current
     - xanmod
+    - xanmod-cacule
 
 deploy:
   - provider: script
     script: wget -qO - https://raw.githubusercontent.com/Nitrux/nitrux-repository-util/master/upload-pkgs | sh -s *.deb
     skip_cleanup: true
     on:
-      branch: xanmod
+      branch: xanmod-cacule
 
 notifications:
   email: false
