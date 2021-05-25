@@ -3,5 +3,5 @@
 
 #    = Kernel =
 
-linux-image-5.12.2-gnu
-linux-headers-5.12.2-gnu
+linux-image-5.12.6-gnu
+linux-headers-5.12.6-gnu
