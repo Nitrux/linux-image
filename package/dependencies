@@ -3,7 +3,7 @@
 
 #    = Kernel =
 
-linux-headers-5.12.0-11.1-liquorix-amd64
+linux-headers-5.12.0-13.1-liquorix-amd64
 linux-headers-liquorix-amd64
-linux-image-5.12.0-11.1-liquorix-amd64
+linux-image-5.12.0-13.1-liquorix-amd64
 linux-image-liquorix-amd64
