@@ -10,7 +10,6 @@ script:
 branches:
   only:
     - main
-    - current
 
 deploy:
   - provider: script
